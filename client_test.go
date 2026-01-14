@@ -5,7 +5,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/long-js/goyamusic/internal/entities"
+	"github.com/long-js/goyamusic/pkg/entities"
 )
 
 var (

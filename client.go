@@ -19,7 +19,7 @@ import (
 	"time"
 
 	"github.com/goccy/go-json"
-	ent "github.com/long-js/goyamusic/internal/entities"
+	ent "github.com/long-js/goyamusic/pkg/entities"
 )
 
 func NewClient(token, baseUrl, language string, httpClient *http.Client) (*Client, error) {
