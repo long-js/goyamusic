@@ -1,15 +1,15 @@
 package entities
 
 type Cover struct {
-	Type           string `json:"type,omitempty"`
-	uri            string `json:"uri,omitempty"`
-	itemsUri       string `json:"itemsUri,omitempty"`
-	dir            string `json:"dir,omitempty"`
-	version        string `json:"version,omitempty"`
-	custom         bool   `json:"custom,omitempty"`
-	isCustom       bool   `json:"isCustom,omitempty"`
-	copyrightName  string `json:"copyrightName,omitempty"`
-	copyrightCline string `json:"copyrightCline,omitempty"`
-	prefix         string `json:"prefix,omitempty"`
-	error          string `json:"error,omitempty"`
+	Type           string   `json:"type,omitempty"`
+	Uri            string   `json:"uri,omitempty"`
+	Dir            string   `json:"dir,omitempty"`
+	Version        string   `json:"version,omitempty"`
+	CopyrightName  string   `json:"copyrightName,omitempty"`
+	CopyrightCline string   `json:"copyrightCline,omitempty"`
+	Prefix         string   `json:"prefix,omitempty"`
+	Error          string   `json:"error,omitempty"`
+	ItemsUri       []string `json:"itemsUri,omitempty"`
+	Custom         bool     `json:"custom,omitempty"`
+	IsCustom       bool     `json:"isCustom,omitempty"`
 }

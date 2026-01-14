@@ -5,7 +5,7 @@ type Block struct {
 	Type        string                                     `json:"type,omitempty"`
 	TypeForFrom string                                     `json:"typeForFrom,omitempty"`
 	Title       string                                     `json:"title,omitempty"`
-	Entities    []BlockEntity                              `json:"entities,omitempty"`
 	Description string                                     `json:"description,omitempty"`
+	Entities    []BlockEntity                              `json:"entities,omitempty"`
 	Data        map[PersonalPlaylistsData]PlayContextsData `json:"data,omitempty"`
 }

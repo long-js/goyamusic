@@ -1,4 +1,4 @@
-# go-ya-music
+# goyamusic
 Unofficial Yandex Music API client.
 
 There's wonderful project written by MarshalX which I've used in python for a desktop player. Some workarounds with that package were needed at that time.

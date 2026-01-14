@@ -6,6 +6,6 @@ type Alert struct {
 	BgColor     string      `json:"bgColor,omitempty"`
 	TextColor   string      `json:"textColor,omitempty"`
 	AlertType   string      `json:"alertType,omitempty"`
-	Button      AlertButton `json:"button"`
 	CloseButton bool        `json:"closeButton,omitempty"`
+	Button      AlertButton `json:"button"`
 }

@@ -1,8 +1,8 @@
 package entities
 
 type Counts struct {
-	tracks       int `json:"tracks,omitempty"`
-	directAlbums int `json:"directAlbums,omitempty"`
-	alsoAlbums   int `json:"alsoAlbums,omitempty"`
-	alsoTracks   int `json:"alsoTracks,omitempty"`
+	Tracks       int `json:"tracks,omitempty"`
+	DirectAlbums int `json:"directAlbums,omitempty"`
+	AlsoAlbums   int `json:"alsoAlbums,omitempty"`
+	AlsoTracks   int `json:"alsoTracks,omitempty"`
 }
